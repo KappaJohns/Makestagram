@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20B549171F13D09900BD92B1 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B549161F13D09900BD92B1 /* Chat.storyboard */; };
+		20B549191F13D0C100BD92B1 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B549181F13D0C100BD92B1 /* ChatListViewController.swift */; };
+		20B5491B1F13DE8800BD92B1 /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5491A1F13DE8800BD92B1 /* ChatListCell.swift */; };
+		20B5491D1F13F90100BD92B1 /* NewChaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5491C1F13F90100BD92B1 /* NewChaViewController.swift */; };
+		20B5491F1F14024B00BD92B1 /* NewChatUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5491E1F14024B00BD92B1 /* NewChatUserCell.swift */; };
 		DD7CDEA61F0D69530024712E /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7CDEA51F0D69530024712E /* LikeService.swift */; };
 		DD7CDEA81F0E7BFF0024712E /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7CDEA71F0E7BFF0024712E /* FollowService.swift */; };
 		DD7CDEAA1F0E7EEA0024712E /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7CDEA91F0E7EEA0024712E /* FindFriends.storyboard */; };
@@ -63,6 +68,11 @@
 
 /* Begin PBXFileReference section */
 		175D233D94AE24770589CCBA /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
+		20B549161F13D09900BD92B1 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Chat.storyboard; path = Storyboards/Chat.storyboard; sourceTree = "<group>"; };
+		20B549181F13D0C100BD92B1 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		20B5491A1F13DE8800BD92B1 /* ChatListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
+		20B5491C1F13F90100BD92B1 /* NewChaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChaViewController.swift; sourceTree = "<group>"; };
+		20B5491E1F14024B00BD92B1 /* NewChatUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewChatUserCell.swift; sourceTree = "<group>"; };
 		83F79832F5BE4C99F288A67B /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC57463A900B6D0E9D0AC83A /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		DD7CDEA51F0D69530024712E /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
@@ -96,7 +106,7 @@
 		DDF4A5661F0699DE0007E003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDF4A5751F06ACA00007E003 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		DDF4A5771F06ACB10007E003 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DDF4A5791F06ACBD0007E003 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDF4A5791F06ACBD0007E003 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDF4A57A1F06ACBD0007E003 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		DDF4A5801F06CC210007E003 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		DDF4A5821F06CCEF0007E003 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -203,6 +213,8 @@
 				DDF4A5B51F0AC0130007E003 /* HomeViewController.swift */,
 				DDF4A5B71F0AD5400007E003 /* MainTabBarController.swift */,
 				DD7CDECE1F0FF1C10024712E /* ProfileViewController.swift */,
+				20B549181F13D0C100BD92B1 /* ChatListViewController.swift */,
+				20B5491C1F13F90100BD92B1 /* NewChaViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -225,6 +237,7 @@
 				DD7CDED01F0FF4100024712E /* Profile.storyboard */,
 				DD7CDEA91F0E7EEA0024712E /* FindFriends.storyboard */,
 				DDF4A5C61F0D2F210007E003 /* Home.storyboard */,
+				20B549161F13D09900BD92B1 /* Chat.storyboard */,
 				DDF4A5801F06CC210007E003 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -286,6 +299,8 @@
 				DD7CDEAB1F0E80F30024712E /* FindFriendsCell.swift */,
 				DD7CDED21F0FF63B0024712E /* PostThumbImageCell.swift */,
 				DD7CDED41F0FFACC0024712E /* ProfileHeaderView.swift */,
+				20B5491A1F13DE8800BD92B1 /* ChatListCell.swift */,
+				20B5491E1F14024B00BD92B1 /* NewChatUserCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -373,6 +388,7 @@
 				DD7CDEC91F0FC0DD0024712E /* OpenSans-SemiboldItalic.ttf in Resources */,
 				DDF4A5781F06ACB10007E003 /* LaunchScreen.storyboard in Resources */,
 				DDF4A57B1F06ACBD0007E003 /* GoogleService-Info.plist in Resources */,
+				20B549171F13D09900BD92B1 /* Chat.storyboard in Resources */,
 				DDF4A5671F0699DE0007E003 /* Assets.xcassets in Resources */,
 				DD7CDEAA1F0E7EEA0024712E /* FindFriends.storyboard in Resources */,
 				DDF4A5C71F0D2F210007E003 /* Home.storyboard in Resources */,
@@ -446,11 +462,14 @@
 				DD7CDED51F0FFACC0024712E /* ProfileHeaderView.swift in Sources */,
 				DDF4A5AD1F0A9E060007E003 /* UserService.swift in Sources */,
 				DDF4A5CE1F0D5B370007E003 /* PostActionCell.swift in Sources */,
+				20B5491B1F13DE8800BD92B1 /* ChatListCell.swift in Sources */,
 				DD7CDEA61F0D69530024712E /* LikeService.swift in Sources */,
 				DDF4A5C11F0D257B0007E003 /* Post.swift in Sources */,
+				20B549191F13D0C100BD92B1 /* ChatListViewController.swift in Sources */,
 				DDF4A5CA1F0D43440007E003 /* PostImageCell.swift in Sources */,
 				DD7CDED91F101ECB0024712E /* Message.swift in Sources */,
 				DD7CDEB21F0EC1BF0024712E /* MGPaginationHelper.swift in Sources */,
+				20B5491F1F14024B00BD92B1 /* NewChatUserCell.swift in Sources */,
 				DD7CDEAC1F0E80F30024712E /* FindFriendsCell.swift in Sources */,
 				DD7CDED31F0FF63B0024712E /* PostThumbImageCell.swift in Sources */,
 				DDF4A5C31F0D2B2C0007E003 /* UIImage+Size.swift in Sources */,
@@ -460,6 +479,7 @@
 				DD7CDECF1F0FF1C10024712E /* ProfileViewController.swift in Sources */,
 				DDF4A5AF1F0AB16E0007E003 /* Constants.swift in Sources */,
 				DDF4A5B61F0AC0130007E003 /* HomeViewController.swift in Sources */,
+				20B5491D1F13F90100BD92B1 /* NewChaViewController.swift in Sources */,
 				DD7CDEAE1F0EA2000024712E /* DatabaseReference+Location.swift in Sources */,
 				DDF4A5C51F0D2BFA0007E003 /* StorageReference+Post.swift in Sources */,
 				DDF4A5B41F0AC0010007E003 /* FindFriendsViewController.swift in Sources */,

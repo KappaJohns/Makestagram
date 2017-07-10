@@ -35,4 +35,12 @@ class Message {
         self.timestamp = Date()
         self.sender = User.current
     }
+    var dictValue: [String : Any] {
+        let userDict = ["username" : sender.username,
+                        "uid" : sender.uid]
+        
+        return ["sender" : userDict,
+                "content" : content,
+                "timestamp" : timestamp.timeIntervalSince1970]
+    }
 }

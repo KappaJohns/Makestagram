@@ -161,7 +161,13 @@
                             <constraint firstItem="Is8-80-AYI" firstAttribute="top" secondItem="DRZ-qW-DaK" secondAttribute="top" id="ic4-xK-b5F"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Makestagram" id="hud-3t-t3T"/>
+                    <navigationItem key="navigationItem" title="Makestagram" id="hud-3t-t3T">
+                        <barButtonItem key="rightBarButtonItem" image="nav_messages_black" id="P82-zt-U73">
+                            <connections>
+                                <segue destination="PaN-In-u9V" kind="presentation" id="v9S-d0-VTe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Is8-80-AYI" id="5Se-vA-0MF"/>
                     </connections>
@@ -192,11 +198,20 @@
             </objects>
             <point key="canvasLocation" x="-320.80000000000001" y="-291.00449775112446"/>
         </scene>
+        <!--Chat-->
+        <scene sceneID="rSE-Q6-59v">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Chat" id="PaN-In-u9V" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V2o-0X-Eti" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1437.5999999999999" y="-291.00449775112446"/>
+        </scene>
     </scenes>
     <resources>
         <image name="btn_heart_black_outline" width="24" height="24"/>
         <image name="btn_heart_red_solid" width="24" height="24"/>
         <image name="btn_options_black" width="24" height="24"/>
+        <image name="nav_messages_black" width="16" height="16"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
 </document>
